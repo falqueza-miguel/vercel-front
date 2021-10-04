@@ -1,0 +1,17 @@
+.itemContainer {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 4rem;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 7fr 1fr;
+}
+
+.roleName {
+   border-radius: 20px;
+   text-align: center;
+   background-color: rgba(83, 206, 34, 0.678);
+   padding: 0.5rem 1rem;
+   font-size: 1.2rem;
+}

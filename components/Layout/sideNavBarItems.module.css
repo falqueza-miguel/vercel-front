@@ -1,0 +1,9 @@
+.linkstyle {
+      transition: all 0.5s ease;
+}
+
+.linkstyle:hover {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+

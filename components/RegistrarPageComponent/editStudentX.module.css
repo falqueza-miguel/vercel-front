@@ -1,0 +1,323 @@
+.container {
+   max-width: 100rem;
+   margin: auto;
+}
+
+.formHeader {
+   font-size: 3.5rem;
+   margin: 3rem 0;
+}
+.formContainer {
+   border: 0.5px solid rgba(128, 128, 128, 0.13);
+   background: #d9d9d928;
+   font-size: 1.5rem;
+   padding: 1rem 3.5rem 4rem 3.5rem;
+   color: rgba(0, 0, 0, 0.794);
+}
+
+.formContainer > div > div > input {
+   width: 20rem;
+   height: 3.5rem;
+   font-size: 1.7rem;
+   border: rgba(92, 91, 91, 0.287) 1px solid;
+   background: rgba(0, 0, 0, 0.034);
+   padding: 1rem;
+}
+.formContainer > div > div > input:focus {
+   font-size: inherit;
+   border: none;
+   outline: rgb(29, 128, 115) 1.5px solid;
+   padding: 1rem;
+}
+
+.formContainer > div > div > label {
+   font-size: 1.7rem;
+   margin-right: 2.5rem;
+}
+
+.yearSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 5rem;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5rem;
+}
+.yearSection > div > input {
+   text-align: center;
+   margin-top: 1rem;
+}
+.yearSection > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.yearSection input::placeholder {
+   color: #000;
+}
+.dropdown {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: inherit;
+}
+
+.dropdown > select {
+   margin-top: 1rem;
+   width: 20rem;
+   height: 3.5rem;
+   font-size: 1.7rem;
+   border: rgba(92, 91, 91, 0.287) 1px solid;
+   background: rgba(0, 0, 0, 0.034);
+}
+.dropdown > select > option {
+   text-align: center;
+}
+.typeHeader {
+   font-size: 3rem;
+   margin: 6rem 0 3rem 0;
+}
+
+.studentSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(7, 1fr);
+   grid-gap: 2rem;
+}
+.studentSection > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.studentSection > div:nth-child(11),
+.studentSection > div:nth-child(12) {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.1fr;
+}
+.studentSection > div:nth-child(11) > input,
+.studentSection > div:nth-child(12) > input {
+   width: 96.1%;
+}
+
+.studentSection > div:nth-child(8) > input {
+   width: 4rem;
+   height: 4rem;
+   background: rgba(0, 0, 0, 0.034);
+}
+.studentSection > div:nth-child(8) > input:focus {
+   outline: none;
+}
+.studentSection input::placeholder {
+   color: #000;
+}
+/* Parents section */
+
+.parentsSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(9, 1fr);
+   grid-gap: 2rem;
+}
+
+.parentsSection > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.typeSubHeader {
+   font-size: 2.5rem;
+   font-weight: 500;
+   margin-top: 1rem;
+}
+.parentsSection input::placeholder {
+   color: #000;
+}
+/* FOR STUDENTS */
+
+.forStudentsContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2rem;
+   margin-bottom: 10rem;
+}
+
+.forStudentsContainer > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.forStudentsContainer > div:last-child {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.2fr;
+}
+
+.forStudentsContainer > div:last-child > input {
+   width: 96.1%;
+}
+
+.forStudentsContainer > div:nth-child(8) {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.2fr;
+}
+.forStudentsContainer > div:nth-child(8) > input {
+   width: 96.1%;
+}
+.forStudentsContainer input::placeholder {
+   color: #000;
+}
+
+.radioInput {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   font-size: 1.7rem;
+   width: 21.5rem;
+}
+
+.radioInput > div {
+   margin-right: 3rem;
+}
+
+.radioInput > div > input[type="radio"] {
+   width: 2rem;
+   height: 2rem;
+   margin-right: 1rem;
+}
+
+/* CHECKBOX  */
+
+.checkboxContainer {
+   margin-top: 4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding-left: 20rem;
+   margin-bottom: 4rem;
+}
+.radioContainer {
+   position: relative;
+   padding-left: 4rem;
+   margin-bottom: 1.5rem;
+   cursor: pointer;
+   font-size: 1.7rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+   grid-column: 1;
+}
+
+.radioContainer input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+}
+
+.checkmark {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: rgb(212, 207, 207);
+}
+
+.radioContainer:hover input ~ .checkmark {
+   background-color: rgb(204, 204, 204);
+}
+.radioContainer input:checked ~ .checkmark {
+   background-color: #2196f3;
+}
+.checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+.radioContainer input:checked ~ .checkmark:after {
+   display: block;
+}
+.radioContainer .checkmark:after {
+   left: 9px;
+   top: 5px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.buttonContainer {
+   padding: 0 25rem;
+   display: flex;
+   gap: 1rem;
+}
+.buttonUpdate,
+.buttonArchive {
+   padding: 0 1rem;
+   height: 5rem;
+   width: 15rem;
+   margin: auto;
+}
+
+.errorMes {
+   position: absolute;
+   color: red;
+   grid-column: 2;
+   font-size: 1.5rem;
+   top: 3.2rem;
+}
+
+.messageContainer {
+   position: relative;
+   width: 60%;
+   height: 45rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.messageHeader {
+   font-size: 3rem;
+   color: #3c6075;
+}
+
+.messageBody {
+   margin-top: 3rem;
+   font-size: 2.5rem;
+   font-weight: 400;
+}
+.messageFooter {
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+}
+.modalButton {
+   padding: 1.5rem 2rem;
+   font-size: 1.5rem;
+}
+
+.inputContainer input::placeholder {
+   color: black;
+}
+
+.buttonConfirmationContainer {
+   display: flex;
+   gap: 2rem;
+}
+
+.buttonConfirmationContainer > * {
+   font-size: 1.7rem;
+   padding: 1rem 5rem;
+}

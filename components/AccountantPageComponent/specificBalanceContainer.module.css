@@ -1,0 +1,16 @@
+.specificBalancePageContainer {
+   max-width: 120rem;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 25rem auto;
+   height: calc(100vh - 13rem);
+   padding: 1rem 0;
+}
+
+.navbarContainer {
+   height: 100%;
+}
+.specificBalance {
+   height: 100%;
+   padding-bottom: 5rem;
+}

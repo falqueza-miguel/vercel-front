@@ -1,0 +1,253 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+
+.input {
+   width: 100%;
+   padding: 0.5rem;
+}
+
+.button {
+   padding: 0 2rem;
+   height: 5rem;
+   width: 15rem;
+   margin: auto;
+}
+
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   border: 1px solid #000;
+   border-bottom: none;
+}
+
+.listContainer {
+   box-sizing: border-box;
+   border: 1px solid #000;
+   margin-bottom: 4rem;
+   max-height: 37rem;
+}
+.columnTitlecontainer {
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer > h4 {
+   display: flex;
+   align-items: center;
+}
+.columnTitlecontainer > h4:first-child {
+   text-align: left;
+   padding: 1.5rem 0 1.5rem 5rem;
+   border-right: 1px solid #000;
+}
+.columnTitlecontainer > h4:not(:first-child) {
+   text-align: center;
+   border-right: 1px solid #000;
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+}
+
+.columnTitlecontainer > h4:last-child {
+   border-right: none;
+}
+.itemContainer {
+   text-align: start;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+}
+.itemContainer:last-child {
+   border-bottom: none;
+}
+
+.itemContainer > div:first-child {
+   text-align: left;
+   padding: 1.5rem 0 1.5rem 5rem;
+   border-right: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+.itemContainer > div:not(:first-child) {
+   width: 100%;
+   height: 100%;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px #000 solid;
+}
+.itemContainer > div:last-child {
+   border: none;
+}
+.itemContainer > div {
+   width: 100%;
+   height: 100%;
+   padding: 2rem;
+   text-align: center;
+   font-size: 1.7rem;
+}
+.name {
+   font-size: 1.6rem;
+   text-align: start;
+   padding: 1.5rem 0 1.5rem 5rem;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}
+
+/* prev grade */
+.prevGradeContainer {
+   margin-bottom: 2rem;
+}
+.columnNamePrevGrade {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.columnNamePrevGradeClicked {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   border: 1px solid #000;
+   border-bottom: none;
+   cursor: pointer;
+   border-radius: 0;
+}
+.submitButton {
+   margin-top: 3rem;
+}
+
+.messageContainer {
+   position: relative;
+   width: 60%;
+   height: 45rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.messageHeader {
+   font-size: 7rem;
+   color: #3c6075;
+}
+
+.messageBody {
+   margin-top: 3rem;
+   font-size: 2.5rem;
+   font-weight: 400;
+}
+.messageFooter {
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+}
+.modalButton {
+   padding: 1.5rem 2rem;
+   font-size: 1.5rem;
+}
+
+/* for grade 11 & 12 */
+.listContainer2 {
+   box-sizing: border-box;
+   border: 1px solid #000;
+   margin-bottom: 4rem;
+   max-height: 37rem;
+}
+.columnTitlecontainer2 {
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer2 > h4 {
+   display: flex;
+   align-items: center;
+}
+.columnTitlecontainer2 > h4:first-child {
+   text-align: left;
+   padding: 1.5rem 0 1.5rem 5rem;
+   border-right: 1px solid #000;
+}
+.columnTitlecontainer2 > h4:not(:first-child) {
+   text-align: center;
+   border-right: 1px solid #000;
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+}
+
+.columnTitlecontainer2 > h4:last-child {
+   border-right: none;
+}
+.itemContainer2 {
+   text-align: start;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+}
+.itemContainer2:last-child {
+   border-bottom: none;
+}
+
+.itemContainer2 > div:first-child {
+   text-align: left;
+   padding: 1.5rem 0 1.5rem 5rem;
+   border-right: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+.itemContainer2 > div:not(:first-child) {
+   width: 100%;
+   height: 100%;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px #000 solid;
+}
+.itemContainer2 > div:last-child {
+   border: none;
+}
+.itemContainer2 > div {
+   width: 100%;
+   height: 100%;
+   padding: 2rem;
+   text-align: center;
+   font-size: 1.7rem;
+}
+.name2 {
+   font-size: 1.6rem;
+   text-align: start;
+   padding: 1.5rem 0 1.5rem 5rem;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}

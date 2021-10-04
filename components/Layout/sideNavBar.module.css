@@ -1,0 +1,41 @@
+.navContainer {
+      font-size: 2rem;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      justify-content: flex-start;
+      padding: 10rem 0;
+      border-radius: 10px;
+      height: 100%;
+}
+
+.navContainer li {
+      width: 100%;
+      padding: 1.5rem 0;
+}
+
+.first li:first-child {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+.second li:nth-child(2) {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+.third li:nth-child(3) {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+.fourth li:nth-child(4) {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+.fifth li:nth-child(5) {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}
+.sixth li:nth-child(6) {
+      background-color: #c5e3f4;
+      color: #c0955d;
+}

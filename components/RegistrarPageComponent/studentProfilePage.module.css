@@ -1,0 +1,39 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+
+.profileContainer {
+   height: 45rem;
+   background: #fff;
+   padding: 5rem 15rem;
+   border-radius: 10px;
+   font-size: 1.7rem;
+   font-weight: 300;
+}
+
+.profileField {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-gap: 3rem;
+   margin-bottom: 2rem;
+}
+
+.profileContainer .profileField:last-child {
+   margin-bottom: 11rem;
+}
+
+.profileField .field {
+   background: rgba(0, 0, 0, 0.1);
+   padding: 0.5rem;
+   border-radius: 5px;
+}
+
+.button {
+   margin-top: 1rem;
+}

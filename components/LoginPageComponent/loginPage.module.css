@@ -1,0 +1,17 @@
+.loginPageContainer {
+   max-width: 120rem;
+   display: grid;
+   grid-template-columns: 1fr 10fr;
+   grid-template-rows: minmax(200px, max-content);
+   margin: 1.5rem auto;
+}
+
+.loginForm {
+   display: flex;
+   justify-content: center;
+   padding: 2rem 2rem;
+   border-radius: 20px;
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 40%);
+   grid-row: 1;
+   height: 53rem;
+}

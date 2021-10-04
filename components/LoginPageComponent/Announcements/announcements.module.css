@@ -1,0 +1,14 @@
+.announcements {
+   height: auto;
+   width: auto;
+   padding: 0 0 0 2.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   justify-content: flex-start;
+}
+
+.announcement_header {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}

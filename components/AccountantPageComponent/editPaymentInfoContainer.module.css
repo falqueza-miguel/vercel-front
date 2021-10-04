@@ -1,0 +1,12 @@
+.editPaymentInfoContainer {
+   max-width: 120rem;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 25rem auto;
+   padding: 1rem 0;
+   height: calc(100vh - 10rem);
+}
+
+.navbarContainer {
+   height: 100%;
+}

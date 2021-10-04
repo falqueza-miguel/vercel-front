@@ -1,0 +1,363 @@
+.container {
+   padding: 3rem 6rem;
+}
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+
+.formWrapper {
+   height: 25rem;
+   background: #fff;
+   padding: 1rem 3rem;
+   border-radius: 10px;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+.formContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 2rem 3rem;
+   gap: 1rem;
+}
+
+.formFields {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 4rem;
+}
+
+.labelContainer {
+   justify-self: flex-end;
+   flex: 2;
+   margin-right: 1rem;
+}
+.inputContainer {
+   height: 3rem;
+   flex: 3;
+   margin-right: 1rem;
+   position: relative;
+   background: rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+}
+
+.input {
+   width: 100%;
+   padding: 0.5rem;
+}
+.invalid input {
+   border: 1px solid #b40e0e;
+   background-color: #fddddd;
+}
+
+.invalid input:focus {
+   border-color: #ff8800;
+   background-color: #fbe8d2;
+}
+
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 2rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+}
+.columnName2 {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 2rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   margin-top: 3rem;
+}
+.listContainer {
+   box-sizing: border-box;
+   overflow-y: scroll;
+   max-height: 37rem;
+   border-left: 1px solid #000;
+}
+.columnTitlecontainer {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+   text-align: left;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer > h4 {
+   text-align: left;
+   padding: 1rem 0;
+}
+
+.columnTitlecontainer > h4 {
+   border-right: 1px solid #000;
+   text-align: center;
+}
+.columnTitlecontainer > h4:last-child {
+   border-right: none;
+}
+
+.itemContainer {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr 3fr;
+}
+
+.itemContainer > div {
+   border-right: none;
+   padding: 1rem 0;
+   text-align: center;
+   border-right: 1px solid #000;
+}
+
+.itemContainer > div:last-child {
+   border-right: none;
+}
+.name {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}
+
+/* schedule period */
+.listContainer2 {
+   box-sizing: border-box;
+   max-height: 37rem;
+   overflow-y: scroll;
+   border-left: 1px solid #000;
+}
+.columnTitlecontainer2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   text-align: left;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer2 > h4 {
+   text-align: left;
+   padding: 1rem 0;
+}
+
+.columnTitlecontainer2 > h4 {
+   border-right: 1px solid #000;
+   text-align: center;
+}
+.columnTitlecontainer2 > h4:last-child {
+   border-right: none;
+}
+
+.itemContainer2 {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.itemContainer2 > div {
+   border-right: none;
+   padding: 1rem 0;
+   text-align: center;
+   border-right: 1px solid #000;
+}
+
+.itemContainer2 > div:first-child {
+}
+.itemContainer2 > div:last-child {
+   border-right: none;
+}
+.name2 {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}
+
+/* create button */
+.createButtonContainer {
+   text-align: right;
+   margin: 1rem 0;
+}
+.createButton {
+   padding: 1.5rem 2rem;
+}
+.buttonContainer {
+   padding: 0 30rem;
+   display: flex;
+   gap: 1rem;
+   margin-top: 2rem;
+}
+.checkboxContainer {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 1.7rem;
+   padding: 0 2rem;
+   margin-bottom: 2rem;
+}
+.radioContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding-left: 3rem;
+   margin-bottom: 1.5rem;
+   cursor: pointer;
+   font-size: 1.4rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   grid-column: 1;
+}
+
+.radioContainer input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+}
+
+.checkmark {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 20px;
+   width: 20px;
+   background-color: rgb(241, 241, 241);
+}
+
+.radioContainer:hover input ~ .checkmark {
+   background-color: rgb(204, 204, 204);
+}
+.radioContainer input:checked ~ .checkmark {
+   background-color: #2196f3;
+}
+.checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+.radioContainer input:checked ~ .checkmark:after {
+   display: block;
+}
+.radioContainer .checkmark:after {
+   left: 6.5px;
+   top: 2px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.messageContainer {
+   position: relative;
+   width: 60%;
+   height: 45rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.modalDesignTransac {
+   position: relative;
+   padding: 4rem 2rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.messageHeader {
+   font-size: 4rem;
+   color: #3c6075;
+   margin-bottom: 3rem;
+}
+
+.messageBody {
+   margin-top: 3rem;
+   font-size: 2.5rem;
+   font-weight: 400;
+}
+.messageFooter {
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+}
+.modalButton {
+   padding: 1.5rem 2rem;
+   font-size: 1.5rem;
+}
+
+.inputContainer input::placeholder {
+   color: black;
+}
+
+.buttonConfirmationContainer {
+   display: flex;
+   gap: 2rem;
+}
+
+.buttonConfirmationContainer > * {
+   font-size: 1.7rem;
+   padding: 1rem 5rem;
+}
+
+.modalFormField {
+   margin: 2rem 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+   padding-right: 4rem;
+}
+
+.formFieldsModal {
+   margin-bottom: 2rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.modalFormField > div:last-child {
+   margin-bottom: none;
+}
+.modalFormField > div:first-child .inputContainer {
+   padding: 0.5rem;
+   width: 100%;
+}
+.dropdown {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.dropdown > select {
+   width: 100%;
+   height: 2.5rem;
+}
+.specify {
+   width: 100%;
+   height: 2.5rem;
+   margin-top: 0.5rem;
+   padding: 0.5rem;
+}

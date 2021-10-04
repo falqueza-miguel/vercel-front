@@ -1,0 +1,127 @@
+.container {
+      padding: 3rem 6rem;
+      height: 100%;
+}
+.header {
+      font-size: 4.5rem;
+      margin-bottom: 2rem;
+}
+
+.formWrapper {
+      height: 45rem;
+      background: #fff;
+      padding: 5rem 5rem;
+      border-radius: 10px;
+      font-size: 1.7rem;
+      font-weight: 300;
+}
+.formContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 3rem;
+}
+
+.formFields {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4rem;
+}
+
+.labelContainer {
+      justify-self: flex-end;
+      flex: 2;
+      margin-right: 1rem;
+}
+.inputContainer {
+      flex: 3;
+      margin-right: 1rem;
+      position: relative;
+}
+
+.input {
+      width: 100%;
+      padding: 0.5rem;
+}
+
+.buttonContainer {
+      padding: 0 25rem;
+      display: flex;
+      gap: 1rem;
+}
+.buttonUpdate,
+.buttonArchive {
+      padding: 0 1rem;
+      height: 5rem;
+      width: 15rem;
+      margin: auto;
+}
+.dropdown {
+      width: 100%;
+      padding: 0.5rem;
+}
+
+.invalid input {
+      border: 1px solid #b40e0e;
+      background-color: #fddddd;
+}
+
+.invalid input:focus {
+      border-color: #ff8800;
+      background-color: #fbe8d2;
+}
+
+.errorMes {
+      position: absolute;
+      color: red;
+      grid-column: 2;
+      font-size: 1.5rem;
+      top: 3.2rem;
+}
+
+.messageContainer {
+      position: relative;
+      width: 60%;
+      height: 45rem;
+      background: #c5e3f4;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.messageHeader {
+      font-size: 3rem;
+      color: #3c6075;
+}
+
+.messageBody {
+      margin-top: 3rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+}
+.messageFooter {
+      font-size: 2.5rem;
+      font-weight: 300;
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+}
+.modalButton {
+      padding: 1.5rem 2rem;
+      font-size: 1.5rem;
+}
+
+.inputContainer input::placeholder {
+      color: black;
+}
+
+.buttonConfirmationContainer {
+      display: flex;
+      gap: 2rem;
+}
+
+.buttonConfirmationContainer > * {
+      font-size: 2rem;
+      padding: 1rem 5rem;
+}

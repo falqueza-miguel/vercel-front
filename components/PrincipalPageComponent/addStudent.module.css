@@ -1,0 +1,233 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+
+.formWrapper {
+   height: 30rem;
+   background: #fff;
+   padding: 6rem 2rem;
+   border-radius: 10px;
+   font-size: 1.7rem;
+   font-weight: 300;
+}
+.formContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.formFields {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 4rem;
+}
+
+.inputContainer {
+   height: 3rem;
+   flex: 1;
+   margin-right: 1rem;
+   background: rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+}
+.labelContainer {
+   flex: 12;
+   margin-right: 1rem;
+}
+
+.input {
+   width: 100%;
+   padding: 0.5rem;
+}
+.label {
+   width: 100%;
+}
+
+.button {
+   padding: 0 2rem;
+   height: 5rem;
+   width: 15rem;
+   margin: auto;
+}
+
+.studentListWrapper {
+   background: #fff;
+   border-radius: 10px;
+   font-size: 1.7rem;
+   font-weight: 300;
+   margin-top: 2rem;
+   overflow: hidden;
+   padding: 0.5rem;
+}
+.studentListHeader {
+   padding: 1rem 0 0 0;
+   font-size: 3rem;
+
+   font-weight: 500;
+}
+
+.studentListContainer {
+   padding: 2rem 4rem;
+}
+.columnListName {
+   display: grid;
+   grid-template-columns: 1fr 10fr 8fr;
+   text-align: left;
+   border-bottom: 1px solid #000;
+}
+.columnListName > h4 {
+   padding: 1rem 0;
+   height: 100%;
+}
+.columnListName > h4:not(:last-child) {
+   border-right: 1px solid #000;
+}
+.columnListName > h4:not(:first-child) {
+   padding-left: 2rem;
+}
+.columnListName > h4:first-child {
+   text-align: center;
+}
+.studentList {
+   border: #000 1px solid;
+   border-bottom: none;
+}
+.studItem {
+   font-size: 1.7rem;
+   border-radius: 10px;
+   text-align: left;
+   display: grid;
+   grid-template-columns: 1fr 10fr 8fr;
+}
+.studItem > div {
+   height: 100%;
+   padding: 1rem 0;
+   border-bottom: 1px solid #000;
+}
+.studItem > div:first-child {
+   text-align: center;
+}
+.studItem > div:not(:last-child) {
+   border-right: 1px solid #000;
+}
+.studItem > div:not(:first-child) {
+   padding-left: 2rem;
+}
+
+/* start here */
+.studentcontainer {
+   padding: 3rem 6rem;
+   height: 100%;
+   overflow: hidden;
+}
+
+.studentheader {
+   font-size: 3rem;
+   font-weight: 500;
+   margin: 2rem;
+}
+
+.filterContainer {
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 1rem;
+   align-items: center;
+   gap: 2rem;
+}
+.input {
+   padding: 0.5rem;
+   width: 25rem;
+}
+.select {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.select > select {
+   padding: 0.5rem;
+}
+.dropdownName {
+   font-size: 1.7rem;
+}
+
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+}
+
+.listContainer {
+   box-sizing: border-box;
+   max-height: 37rem;
+   overflow-y: scroll;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+   margin-bottom: 2rem;
+}
+
+.name {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 5rem;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}
+
+.itemContainer {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 5rem;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: flex;
+
+   justify-content: space-between;
+   align-items: center;
+}
+
+.checkbox {
+   width: 2.5rem;
+   height: 2.5rem;
+}
+
+.messageContainer {
+   position: relative;
+   width: 60%;
+   height: 45rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.messageHeader {
+   font-size: 7rem;
+   color: #3c6075;
+}
+
+.messageBody {
+   margin-top: 3rem;
+   font-size: 2.5rem;
+   font-weight: 400;
+}
+.messageFooter {
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+}
+.modalButton {
+   padding: 1.5rem 2rem;
+   font-size: 1.5rem;
+}

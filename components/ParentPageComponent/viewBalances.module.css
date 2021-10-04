@@ -1,0 +1,136 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+.formWrapper {
+   height: 25rem;
+   background: #fff;
+   padding: 1rem 4rem;
+   border-radius: 10px;
+   font-size: 1.7rem;
+   font-weight: 300;
+}
+.formContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 3rem;
+}
+
+.formFields {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 4rem;
+}
+
+.labelContainer {
+   justify-self: flex-end;
+   flex: 2;
+   margin-right: 1rem;
+}
+.inputContainer {
+   height: 3rem;
+   flex: 3;
+   margin-right: 1rem;
+   position: relative;
+   background: rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+}
+
+.input {
+   width: 100%;
+   padding: 0.5rem;
+}
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 3rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+}
+
+.listContainer {
+   box-sizing: border-box;
+   max-height: 37rem;
+   border: 1px solid #000;
+   margin-bottom: 4rem;
+}
+.columnTitlecontainer {
+   display: grid;
+   grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+   text-align: left;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer > h4 {
+   text-align: left;
+   padding: 1rem 0;
+}
+
+.columnTitlecontainer > h4 {
+   border-right: 1px solid #000;
+   text-align: center;
+}
+.columnTitlecontainer > h4:last-child {
+   border-right: none;
+}
+
+.itemContainer {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 2fr 2fr 1fr 1fr 2fr;
+}
+.itemContainer:last-child {
+   border-bottom: none;
+}
+.itemContainer > div {
+   border-right: none;
+   padding: 1rem 0;
+   text-align: center;
+   border-right: 1px solid #000;
+}
+
+.itemContainer > div:last-child {
+   border-right: none;
+}
+.name {
+   font-size: 1.7rem;
+   text-align: start;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}
+
+/* prev balance */
+.prevBalanceContainer {
+   margin-bottom: 2rem;
+}
+.columnNamePrevBalance {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.columnNamePrevBalanceClicked {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+   border: 1px solid #000;
+   border-bottom: none;
+   cursor: pointer;
+   border-radius: 0;
+}

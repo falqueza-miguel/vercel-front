@@ -1,0 +1,21 @@
+.itemContainer {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 4rem;
+   font-weight: 300;
+   border-bottom: 1px solid #000;
+   display: grid;
+   grid-template-columns: 7fr 1fr;
+   align-items: center;
+   justify-content: center;
+}
+
+.returning {
+   border-radius: 20px;
+   text-align: center;
+   background-color: rgba(83, 206, 34, 0.678);
+   width: 11rem;
+   padding: 0.5rem 0;
+   font-size: 1.2rem;
+   max-height: 2.5rem;
+}

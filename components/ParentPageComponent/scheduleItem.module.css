@@ -1,0 +1,18 @@
+.itemContainer {
+      font-size: 2rem;
+      text-align: start;
+
+      font-weight: 300;
+      border-bottom: 1px solid #000;
+      display: grid;
+      grid-template-columns: 2fr 4fr 5fr;
+}
+
+.itemContainer > div {
+      border-right: 1px solid #000;
+      padding: 1rem 0 1rem 4rem;
+}
+
+.itemContainer > div:last-child {
+      border-right: none;
+}

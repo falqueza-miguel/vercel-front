@@ -1,0 +1,13 @@
+.editUserContainer {
+   max-width: 120rem;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 25rem auto;
+   height: calc(100vh - 10rem);
+   padding: 1rem 0;
+   gap: 3rem;
+}
+
+.navbarContainer {
+   height: 100%;
+}

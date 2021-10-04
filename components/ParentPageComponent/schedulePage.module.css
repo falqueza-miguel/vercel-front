@@ -1,0 +1,49 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+
+.header {
+   font-size: 3.5rem;
+   margin-bottom: 2rem;
+}
+
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+}
+
+.listContainer {
+   box-sizing: border-box;
+   max-height: 37rem;
+   overflow-y: scroll;
+   border-left: 1px solid #000;
+}
+.columnTitlecontainer {
+   display: grid;
+   grid-template-columns: 2fr 4fr 5fr;
+   text-align: left;
+   padding: 0;
+   font-weight: 700;
+}
+.columnTitlecontainer > h4 {
+   text-align: left;
+   padding: 1rem 4rem;
+   border-right: 1px solid #000;
+}
+
+.columnTitlecontainer > h4:last-child {
+   border-right: none;
+}
+
+.name {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 5rem;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}

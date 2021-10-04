@@ -1,0 +1,66 @@
+.container {
+   padding: 3rem 6rem;
+   height: 100%;
+}
+
+.header {
+   font-size: 3.5rem;
+}
+
+.createButtonContainer {
+   text-align: right;
+   margin: 1rem 0;
+}
+.createButton {
+   padding: 1.5rem 2rem;
+}
+
+.filterContainer {
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 1rem;
+   align-items: center;
+   gap: 2rem;
+}
+.input {
+   padding: 0.5rem;
+   width: 25rem;
+}
+.select {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.select > select {
+   padding: 0.5rem;
+}
+.dropdownName {
+   font-size: 1.7rem;
+}
+
+.columnName {
+   background: #2196f3;
+   font-size: 1.7rem;
+   padding: 1.5rem 4rem;
+   text-align: start;
+   color: #fff;
+   font-weight: 400;
+}
+
+.listContainer {
+   box-sizing: border-box;
+   max-height: 37rem;
+   overflow-y: scroll;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+
+.name {
+   font-size: 1.7rem;
+   text-align: start;
+   padding: 1rem 5rem;
+   font-weight: 500;
+   border-bottom: 1px solid #000;
+}

@@ -1,0 +1,210 @@
+.container {
+   max-width: 100rem;
+   margin: auto;
+}
+.formHeader {
+   font-size: 3.5rem;
+   margin: 5.5rem 0;
+}
+.formContainer {
+   border: 0.5px solid rgba(128, 128, 128, 0.13);
+   background: #d9d9d928;
+   font-size: 1.5rem;
+   padding: 4rem 3.5rem 10rem 3.5rem;
+   color: rgba(0, 0, 0, 0.794);
+}
+
+.input {
+   width: 20rem;
+   overflow: hidden;
+   height: 3.5rem;
+   font-size: 1.7rem;
+   border: rgba(36, 44, 44, 0.089) 1px solid;
+
+   padding: 1rem;
+   border-radius: 5px;
+   background: rgba(92, 148, 146, 0.164);
+}
+
+.formContainer > div > div > label {
+   font-size: 1.7rem;
+   margin-right: 2.5rem;
+}
+
+.yearSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.yearSection > div > .input {
+   margin-top: 1rem;
+}
+.yearSection > div:first-child > input:focus {
+   outline: none;
+}
+.yearSection > div:first-child > input {
+   background: rgba(0, 0, 0, 0.034);
+   width: 3rem;
+   height: 3rem;
+   display: block;
+   margin: 1rem auto;
+}
+
+.typeHeader {
+   font-size: 3rem;
+   margin: 6rem 0 4rem 0;
+}
+
+.studentSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(7, 1fr);
+   grid-gap: 2rem;
+}
+.studentSection > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.studentSection > div:nth-child(11),
+.studentSection > div:nth-child(12) {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.1fr;
+}
+.studentSection > div:nth-child(11) > .input,
+.studentSection > div:nth-child(12) > .input {
+   width: 96.1%;
+}
+
+.studentSection > div:nth-child(8) > input {
+   width: 4rem;
+   height: 4rem;
+   background: rgba(0, 0, 0, 0.034);
+}
+.studentSection > div:nth-child(8) > input:focus {
+   outline: none;
+}
+/* Parents section */
+
+.parentsSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(9, 1fr);
+   grid-gap: 2rem;
+}
+
+.parentsSection > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.typeSubHeader {
+   font-size: 2.5rem;
+   font-weight: 500;
+   margin-top: 1rem;
+}
+
+/* FOR STUDENTS */
+
+.forStudentsContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2rem;
+   margin-bottom: 10rem;
+}
+
+.forStudentsContainer > div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+.forStudentsContainer > div:last-child {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.2fr;
+}
+
+.forStudentsContainer > div:last-child > .input {
+   width: 96.1%;
+}
+
+.forStudentsContainer > div:nth-child(8) {
+   grid-column: 1 / span 2;
+   grid-template-columns: 2fr 6.2fr;
+}
+
+.forStudentsContainer > div:nth-child(8) > .input {
+   width: 96.1%;
+}
+/* CHECKBOX  */
+
+.checkboxContainer {
+   margin: 3rem 0 5rem 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   padding: 0 4rem;
+}
+
+.checkboxContainer h1 {
+   margin-bottom: 3rem;
+}
+
+.indig {
+   text-align: center;
+
+   width: 20rem;
+}
+.buttonContainer {
+   display: flex;
+   gap: 5rem;
+   justify-content: center;
+}
+.submitButton {
+   width: 15rem;
+   font-size: 2.5rem;
+}
+.rejectButton {
+   width: 15rem;
+   font-size: 2.5rem;
+}
+.messageContainer {
+   position: relative;
+   width: 60%;
+   height: 45rem;
+   background: #c5e3f4;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.messageHeader {
+   font-size: 3rem;
+   color: #3c6075;
+}
+
+.messageBody {
+   margin-top: 3rem;
+   font-size: 2.5rem;
+   font-weight: 400;
+}
+.messageFooter {
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+}
+.modalButton {
+   margin-top: 3rem;
+   padding: 1.5rem 2rem;
+   font-size: 1.5rem;
+}
+
+.modalButtonContainer {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+}
+
+.modalButtonContainer > Button {
+   width: 10rem;
+}
