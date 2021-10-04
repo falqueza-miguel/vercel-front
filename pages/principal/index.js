@@ -6,7 +6,7 @@ function PrincipalPage(props) {
     const [profile, setProfile] = useState([]);
     const getProfile = async () => {
         try {
-            const response = await axios.get(`${process.env.NEXT_PUBLIC_DOMAIN_NAME}/api/principal`, {
+            const response = await axios.get(`tmis-backend.herokuapp.com/api/principal`, {
                 withCredentials: true,
             });
             setProfile(response.data.user);
